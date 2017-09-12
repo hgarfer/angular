@@ -6,6 +6,7 @@
 
 # dependencies
 /node_modules
+/bower_components
 
 # IDEs and editors
 /.idea
@@ -27,13 +28,14 @@
 /connect.lock
 /coverage/*
 /libpeerconnection.log
-npm-debug.log
+npm-debug.log*
+yarn-error.log
 testem.log
-/typings
 
-# e2e
-/e2e/*.js
-/e2e/*.map
+# ember-try
+.node_modules.ember-try/
+bower.json.ember-try
+package.json.ember-try
 
 #System Files
 .DS_Store

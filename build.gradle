@@ -15,18 +15,17 @@ group 'org.grails.profiles'
 version '1.0.0.SNAPSHOT'
 
 grailsPublish {
-    userOrg = 'grails'
     githubSlug = 'grails-profiles/angular'
     license = 'Apache-2.0'
     title = "Ember Profile"
     desc = "A profile for creating applications with Ember"
-    developers = [hgarfer:"Holger Garcia"]
+    developers = [hgarfer: "Holger Garcia"]
 }
 
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
-}  
+}
 
 dependencies {
     runtime "org.grails.profiles:rest-api:3.2.1"

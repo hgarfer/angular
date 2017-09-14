@@ -1,0 +1,17 @@
+{
+  "name": "x",
+  "description": "Small description for x goes here",
+  "main": "",
+  "authors": [
+    "x"
+  ],
+  "license": "MIT",
+  "homepage": "x",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

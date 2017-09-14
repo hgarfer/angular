@@ -1,5 +1,7 @@
-# Grails Angular 2 Profile
+# Grails Ember Profile
 
-[![Build Status](https://travis-ci.org/grails-profiles/angular2.svg?branch=master)](https://travis-ci.org/grails-profiles/angular2)
+[![Build Status](https://travis-ci.org/hgarfer/grails-profile-ember.svg?branch=master)](https://travis-ci.org/hgarfer/grails-profile-ember)
 
-A profile for creating Angular applications with Grails
+A profile for creating Ember applications with Grails
+
+To use it `grails create-app myapp --profile=ember`
